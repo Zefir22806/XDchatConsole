@@ -1,10 +1,8 @@
 import socket
 import threading
 import time
-import ctypes
 
-
-ctypes.windll.kernel32.SetConsoleTitleA(b"XDchat Console 1.0") 
+ 
 # Настройки подключения
 SERVER = "irc.libera.chat"
 PORT = 6667
